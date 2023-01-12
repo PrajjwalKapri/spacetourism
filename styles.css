@@ -1,0 +1,277 @@
+body {
+    background-color: #0B0D17;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.earth {
+    width: 100%;
+}
+
+.earthflex {
+    display: flex;
+    justify-content: right;
+}
+
+/* Space heading */
+.space {
+    color: white;
+    position: absolute;
+
+    left: 6.4rem;
+    bottom: 11.5rem;
+    font-size: 8rem;
+    font-family: 'Bellefair', serif;
+    font-weight: 300;
+    letter-spacing: 1rem;
+}
+
+
+/* Line above space heading */
+.above {
+    position: absolute;
+    font-size: 2rem;
+    left: 6.4rem;
+    bottom: 24rem;
+    color: rgba(208, 214, 249, 1);
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+
+    /* Para Below space heading */
+}
+
+.para {
+    height: 8rem;
+    width: 27rem;
+    position: absolute;
+    color: rgba(208, 214, 249, 1);
+    font-family: 'Barlow', sans-serif;
+    left: 6.4rem;
+    bottom: 10rem;
+}
+
+.pcontent {
+    line-height: 1.6rem;
+}
+
+/* Explore circle */
+.explore {
+    height: 12rem;
+    width: 12rem;
+    border: 1px solid black;
+    position: absolute;
+    left: 60rem;
+    bottom: 4rem;
+    border-radius: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.explore:hover {
+    outline: 3rem solid rgba(123, 123, 123, 0.2);
+
+}
+
+.nav {
+    /* margin-top: 3rem;
+    position: absolute;
+    right: 0; */
+
+    height: 4rem;
+    background-color: rgba(151, 151, 151, .2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000rem;
+    justify-content: end;
+
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow Condensed';
+    box-sizing: border-box;
+    height: 4rem;
+    padding-top: 1.5rem;
+    width: 7.2rem;
+    text-align: center;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.15rem;
+    font-size: .75rem;
+    margin-right: 2.5rem;
+
+}
+
+.cicles {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 100%;
+    display: inline;
+    background-color: rgba(243, 243, 243, 1);
+    padding-top: 0;
+}
+
+a.navlink:hover {
+    border-bottom: 0.2rem solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.corner {
+    /* position: absolute;
+    left: 4rem; */
+    display: flex;
+    width: 38rem;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.main {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    width: 100%;
+
+    margin-top: 2rem;
+}
+
+.oval {
+    margin-left: 3rem;
+}
+
+hr {
+    position: relative;
+    width: 30rem;
+    left: 2rem;
+    height: 0.001rem;
+    border: none;
+    border-bottom: 1px solid #979797;
+}
+
+/* DESTINATION */
+
+.mooncontainer {
+    width: 50%;
+    position: relative;
+    top: -3rem;
+    right: 8rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Barlow Condensed';
+    display: flex;
+    justify-content: right;
+    align-items: top;
+
+}
+
+.moon {
+    height: 20rem;
+}
+
+#pickdest {
+    letter-spacing: 0.2rem;
+    line-height: 5rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+
+}
+
+#span1 {
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+#pickdest:hover {
+    color: rgba(255, 255, 255, 0.5);
+    ;
+
+}
+
+.headmoon {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 6rem;
+    height: 20rem;
+    ;
+    float: right;
+    text-decoration: none;
+    width: 50%;
+    top: 9.4rem;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.lilink{
+    text-decoration: none;
+    color: rgba(151, 151, 151, .6);
+    font-family: 'Barlow Condensed';
+    box-sizing: border-box;
+    height: 4rem;
+    padding-top: 1.5rem;
+    width: 7.2rem;
+    text-align: center;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.15rem;
+    font-size: .75rem;
+    margin-right: 2.5rem;
+}
+
+li.li {
+    float: left;
+    height: 2rem;
+    font-size: medium;
+
+}
+
+a.li {
+    padding-bottom: 0.65rem;
+}
+
+a.li:hover {
+    border-bottom: 0.2rem solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+}
+#crrli{
+    color: white;
+}
+.moonpara {
+    font-family: 'Barlow';
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(208, 214, 249, 1);
+    width: 25rem;
+    position: relative;
+    top: 3rem;
+    left: 2.75rem;
+    line-height: 1.5rem;
+
+}
+
+.dist p,
+.time p {
+    font-family: 'Barlow Condensed';
+    color: rgba(208, 214, 249, 1);
+}
+
+.dist span,
+.time span {
+    font-family: 'Bellefair';
+    color: white;
+    font-size: 2rem;
+}
+
+.stts {
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+    position: relative;
+    left: 1rem;
+    top: 2.5rem;
+}
+
+/* CREW */
